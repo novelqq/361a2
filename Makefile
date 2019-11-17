@@ -1,6 +1,6 @@
-CXX = g++
+CXX = gcc
 
-CXXFLAGS = -lGLU -lGL -lglut
+CXXFLAGS = -lglut -lGLU -lGL -lstdc++
 
 main: main.o game.o
 	$(CXX) $(CXXFLAGS) -o main main.o game.o
