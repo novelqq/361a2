@@ -1,4 +1,4 @@
-CXX = gcc
+CXX = g++
 
 CXXFLAGS = -lglut -lGLU -lGL -lstdc++
 
